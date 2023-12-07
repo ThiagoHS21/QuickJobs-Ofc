@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pagamento.css">
+    <link rel="icon" type="image/x-icon" href="img/logo preto e azul.png">
+
+</head>
+
+<body>
+    <header>
+        <!-- <img id="logo" src="img/logo branca.svg" alt="logo quick jobs">  -->
+        <nav>
+         <a id="button" href="planospagos.html">VOLTAR</a> 
+        </nav>
+    </header> 
+    <main>
+        <div class="caixa">
+
+        <form action="">
+            <div class="row">
+
+                <div class="col">
+                    <h3 class="titulo">Endereço de Cobrança</h3>
+
+                    <div class="inputbox">
+                        <label for="box-name">Nome</label>
+                        <input type="text" placeholder="name">
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="box-email">Email</label>
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="box-endereço">Endereço</label>
+                        <input type="text" placeholder="rua - número - bairro">
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="box-cidade">Cidade</label>
+                        <input type="text" placeholder="city">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputbox">
+                            <label for="box-estado">Estado</label>
+                            <input type="text" placeholder="state">
+                        </div>
+
+                        <div class="inputbox">
+                            <label for="box-CEP">CEP</label>
+                            <input type="number" placeholder="1234-456">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <h3 class="titulo">Pagamento</h3>
+
+                    <div class="inputbox">
+                        <label for="box-cartoes">Cartões Aceito</label>
+                        <img src="img/card_img.png" alt="">
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="box-name">Nome no Cartão</label>
+                        <input type="text" placeholder="mr. name" required>
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="box-numero">Numero no Cartão</label>
+                        <input type="number" placeholder="1111-2222-3333-4444" required>
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="box-mes">Mês de Validade</label>
+                        <input type="text" placeholder="janeiro" required>
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputbox">
+                            <label for="box-ano">Ano de Validade</label>
+                            <input type="number" placeholder="2023" required>
+                        </div>
+
+                        <div class="inputbox">
+                            <label for="box-name">CVV</label>
+                            <input type="number" placeholder="123" required>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <input type="submit" value="Processo para checkout" class="submit-bnt">
+        </form>
+        </div>
+    </main>
+
+</body>
+<script src="javas/plano.js"></script>
+</html>

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+header{
+    background: #002E5D;
+    padding: 1% 0%;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    box-shadow: 0px 0px 10px #002E5D;
+}
+
+#logo{
+    width: 5%;
+    margin: 1em;
+ }
+ 
+
+nav{
+    margin: 30px;
+}
+  
+
+#button:hover {
+      color: grey;
+}
+  
+a{
+    text-decoration: none;
+      color: ghostwhite;
+      font-family: 'Raleway', sans-serif;
+      font-size: 14px;
+}
+
+#button{
+    color: ghostwhite;
+    display: inline-block;
+    height: 73px;
+    line-height: 73px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+#button:hover {
+    color: grey;
+}
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #fff 60%, #002E5D 40.1%);
+    padding-bottom: 70px;
+}
+
+.caixa form{
+    padding: 20px;
+    width: 90%;
+    background: #fff;
+    box-shadow: 0 0px 15px rgba(0,0,0, 0.2);
+
+}
+
+.caixa form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 0.8rem;
+}
+
+.caixa form .row .col{
+    flex: 1 1 250px;
+}
+
+.caixa form .row .col .titulo{
+    font-size: 0.9rem;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.inputbox{
+    margin: 15px 0;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+    color: rgba(0,0,0,);
+}
+
+input{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    color: rgba(0,0,0, .5);
+} 
+
+input:focus{
+    border-bottom: 1px solid #ccc;
+}
+
+.caixa form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+
+img{
+    height: 34px;
+    margin-top: 1px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.caixa form .submit-bnt{
+    width: 100%;
+    padding: 12px;
+    font-size: 0.8rem;
+    background: #002E5D;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.caixa form .submit-bnt:hover{
+    background: #0056ac;
+}
+
+nav {
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5em;
+    /* background: #002E5D; */
+    /* height: 5vh; */
+  }
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  @media (min-width: 999px) {
+    html {
+      font-size: 25px;
+    }
+}
